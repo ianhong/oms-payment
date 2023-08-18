@@ -48,7 +48,7 @@ on:
   push:
     branches: [ "main" ]
 env:
-  TF_LOG: INFO
+  TF_LOG: DEBUG 
   TF_INPUT: false
 
 permissions:
