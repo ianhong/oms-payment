@@ -3,8 +3,8 @@ provider "azurerm" {
 }
 
 import {
-    to = module.ecom-cosmos.azurerm_resource_group.ihong-lab-rg
-    id = "/subscriptions/bdf4279b-9f60-4762-8593-8964e6bf727f/resourceGroups/ihong-lab-rg"
+  to = module.ecom-cosmos.azurerm_resource_group.ihong-lab-rg
+  id = "/subscriptions/bdf4279b-9f60-4762-8593-8964e6bf727f/resourceGroups/ihong-lab-rg"
 }
 
 module "ecom-cosmos" {
